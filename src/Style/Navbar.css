@@ -1,0 +1,46 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+    box-shadow: 1px 1px 2px #bebcbc;
+    box-shadow: 4px gainsboro;
+    
+}
+.logo img{
+    height: 80px;
+    width: 200px;
+    margin-right: 10px;
+}
+.searchbar input{
+    height: 32px;
+    width: 190%;
+    border: none;
+    outline: none;
+}
+.searchbar img{
+    height: 20px;
+    margin-left: 10px;
+    margin-bottom: 4px;
+}
+.searchbar{
+    width: 25%;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    border: solid 1px gainsboro;
+    border-radius: 5px;
+}
+.add{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 54px;
+}
+.add a{
+    color: grey;
+    text-decoration: none;
+}
+.add a :hover{
+    color: blue;
+}

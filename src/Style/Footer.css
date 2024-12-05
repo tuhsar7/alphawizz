@@ -1,0 +1,41 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.footer a{
+    color: gray;
+    text-decoration: none;
+}
+.categories{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+.information{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.colors{
+    color: blue;
+    height: 2px;
+}
+.categories a:hover{
+    color: blue;
+}
+.information a:hover{
+    color: blue;
+}
+.media{
+    display: flex;
+    gap: 30px;
+}
+.media img{
+    height: 30px;
+    width: 30px;
+}
+.media img:hover{
+    border-radius: 5px;
+    background-color:rgba(0, 0, 255, 0.4);
+}
